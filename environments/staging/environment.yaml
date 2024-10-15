@@ -2,7 +2,7 @@
 #
 # Configuration for staging environment
 #
-# version: 1.0
+#version: 1.0
 app:
   # build id to deploy. if 'version' is commented out, the application is not deployed
   maven:
@@ -14,7 +14,7 @@ app:
   # number of instances
   instances:
     # min number of instances. can be 0 for scale to 0. default to 1.
-    min: 2
+    min: 1
     
     # max number of instances. defaults to 1 if min == 0, otherwise defaults to min
     max: 1
